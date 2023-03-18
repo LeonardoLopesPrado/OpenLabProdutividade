@@ -1,0 +1,70 @@
+/* Desktop */
+@media screen and (min-width: 1440px) {
+    div.footer .container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .card .slide {
+        height: 25vh;
+    }
+}
+
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .card .slide {
+        height: 29vh;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+    .items {
+        width: 250px;
+    }
+
+    .phrase{
+        width: 90%;
+        font-size: 1.25rem;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 2rem;
+    }
+    
+    .formularioLogin input {
+        width: 200px;
+    }
+
+    .conteudoCadastro p, .conteudoLogin p {
+        font-size: 12px;
+
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .footer .container .bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card .slide {
+        height: 29vh;
+    }
+
+    .container-card .card .icon {
+        padding: 20px;
+    }
+}
